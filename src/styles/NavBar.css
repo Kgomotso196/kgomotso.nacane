@@ -1,0 +1,64 @@
+/*NavBar.css*/
+.navbar {
+  background-color: #0a0232;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  height: 50px;
+  z-index: 1;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nav-items ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 100px;
+}
+
+.nav-items li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-items a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.dark-mode {
+  background-color: #0a0232;
+  color: #fff;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.nav-logo img {
+  width: 100px;
+  font-weight: bold;
+}
+
+.mode-button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#for-contact {
+  margin-right: 50px;
+}

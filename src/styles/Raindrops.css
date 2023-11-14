@@ -1,0 +1,26 @@
+.rain-container {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 50px);
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.rain-row {
+  display: flex;
+  justify-content: center;
+}
+
+.rain {
+  width: 10px;
+  height: 5px;
+  background: rgb(23, 179, 231, 0.3);
+  border-radius: 50%;
+  margin: 20px;
+}

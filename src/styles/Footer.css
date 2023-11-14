@@ -1,0 +1,14 @@
+.footer {
+  background-color: #0a0232;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: left;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
